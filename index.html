@@ -1,1 +1,65 @@
-hi
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link href="https://fonts.googleapis.com/css?family=Muli:400,700,900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+      <div class="wrapper">
+           <nav class="nav"><a class="tl">BMY3.8</a><ul><li><a href="#">About</a></li></ul></nav>
+     <div class="tan">
+        
+      <nav class="hero"><h1 class="title"><span>Design <br/>with Life's <br/> Principles</span></h1></nav>
+          <div class="forest">
+            <img src="https://images.unsplash.com/photo-1511207538754-e8555f2bc187?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=582&q=80"/>
+              </div>
+         <div class="line"></div>
+         </div>
+          <div class="white">
+      <div class="quote fadein">   
+    <p>“How do we make the act of asking nature’s advice a
+normal part of everyday inventing?”</p>
+<p>~ Janine Benyus</p>
+          </div> 
+          <div class="list">
+              <h1>Life's</br>Principles</h1>
+        <section></section>
+
+              </div>
+              </div>
+          
+           </div>
+  </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+ 
+   $(window).scroll(function() {    
+
+         var scrollTop = $(window).scrollTop();
+        var imgPos = scrollTop / 2 + 'px';
+        var imgPos2 = scrollTop / 2.5 + 'px';
+        $('.hero').css('transform', 'translateY(' + imgPos + ')');
+        $('.forest').css('transform', 'translateY(' + imgPos2 + ')');
+        
+        $('.white').css('transform', 'translateY(' + imgPos2 + ')');
+      
+ 
+        });
+    
+      
+    
+
+
+});
+</script>
+
+</html>
