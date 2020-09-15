@@ -164,6 +164,7 @@ body .line {
   top: 50px;
   left: 80px;
   right: 80px;
+  z-index: 9999;
 }
 .nav a {
   font-weight: 900;
@@ -178,13 +179,17 @@ body .line {
   list-style: none;
   float: right;
 }
+.nav ul li {
+  float: left;
+  margin-left: 35px;
+}
 .forest {
   opacity: 1;
   position: relative;
   z-index: -1;
   width: 1100px;
   margin-left: calc(50% - 550px);
-  height: 550px;
+  height: 650px;
   overflow: hidden;
   position: absolute;
   top: 170px;
@@ -213,13 +218,85 @@ body .line {
 }
 .list {
   position: relative;
-  margin: 100px 60px 0 60px;
+  margin: 30px 0 0 0;
   display: inline-block;
+  float: left;
+  clear: all;
+  width: 100%;
+  text-align: center;
 }
 .list h1 {
   line-height: 1.4em;
-  font-size: 40px;
+  text-align: left;
   font-weight: 900;
   letter-spacing: 2px;
   margin-left: 100px;
+  color: #e55541;
+}
+.list section {
+  width: 1250px;
+  display: inline-block;
+  clear: all;
+  margin: 0 auto;
+}
+.list .content {
+  float: left;
+  width: 50%;
+  text-align: left;
+  margin-right: 7%;
+}
+.list .content h2 {
+  font-size: 38px;
+  margin-left: 100px;
+  margin-top: 92px;
+  margin-bottom: 15px;
+  line-height: 1.4em;
+}
+.list .content p {
+  font-size: 1.1em;
+  margin-left: 100px;
+  line-height: 1.6;
+  margin-right: 50px;
+}
+.list .content a {
+  text-decoration: underline;
+  margin-top: 15px;
+  color: #000;
+  display: inline-block;
+  margin-left: 100px;
+}
+.list .fimg {
+  float: left;
+  width: 40%;
+  margin-top: 110px;
+}
+.list .fimg video {
+  width: 100%;
+}
+.seemore {
+  padding: 120px 0;
+  border-top: solid 1px #E7D1B9;
+  margin-top: 150px;
+  background: #f6efe6;
+  text-align: center;
+}
+.seemore h2 {
+  font-size: 1.2em;
+  margin-bottom: 45px;
+}
+.seemore a {
+  text-decoration: none;
+  border: solid 2px #000;
+  color: #000;
+  font-weight: 900;
+  margin: 15px 15px;
+  float: left;
+  padding: 0 20px;
+  height: 50px;
+  line-height: 50px;
+  box-shadow: 10px 10px #888888;
+}
+.seemore .lnks {
+  margin: 0 auto;
+  display: inline-block;
 }
