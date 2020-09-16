@@ -130,6 +130,7 @@ table {
 body {
   font-family: 'Muli';
   background: #f6efe6;
+  color: #3E3D6E;
 }
 body .line {
   width: 1px;
@@ -170,7 +171,7 @@ body .line {
 }
 .nav a {
   font-weight: 900;
-  color: #000;
+  color: #3E3D6E;
   text-decoration: none;
   float: left;
 }
