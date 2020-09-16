@@ -313,3 +313,6 @@ body .line {
   font-family: 'Old Standard TT', serif;
   font-weight: 900;
 }
+.active {
+  border-bottom: solid 2px #000;
+}
