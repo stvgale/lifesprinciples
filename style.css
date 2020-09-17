@@ -297,7 +297,7 @@ body .line {
 .seemore .lnks a {
   text-decoration: none;
   border: solid 2px #3E3D6E;
-  color: #3E3D6E;
+  color: #e55541;
   font-weight: 900;
   margin: 15px 15px;
   float: left;
@@ -338,7 +338,7 @@ body .line {
 .projects .title a {
   text-decoration: none;
   border: solid 2px #3E3D6E;
-  color: #3E3D6E;
+  color: #e55541;
   font-weight: 900;
   margin: 15px auto;
   display: inline-block;
