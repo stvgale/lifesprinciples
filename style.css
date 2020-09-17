@@ -141,9 +141,6 @@ body .line {
   top: 0;
   z-index: -9999;
 }
-.wrapper {
-  height: 2000px;
-}
 .hero {
   margin-top: 330px;
   margin-left: calc(50% - 50px);
@@ -369,7 +366,7 @@ body .line {
 .projects .col {
   flex: 1 1 30%;
   /*grow | shrink | basis */
-  margin: 0 15px;
+  margin: 0 15px 45px 15px;
 }
 .projects .col .img {
   width: 100%;
