@@ -160,6 +160,13 @@ body .line {
   padding: 70px 0;
   color: #3E3D6E;
 }
+.hero span {
+  height: 10px;
+  width: 80px;
+  margin-top: 20px;
+  background: #e55541;
+  display: block;
+}
 .nav {
   position: fixed;
   top: 50px;
