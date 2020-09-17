@@ -361,7 +361,7 @@ body .line {
   display: flex;
   max-width: 1300px;
   margin: 0 auto;
-  padding: 60px 80px;
+  padding: 40px 50px;
 }
 .projects .col {
   flex: 1;
@@ -417,4 +417,13 @@ body .line {
 }
 .projects .col ul .b {
   background: #FF4E4E;
+}
+.project-title {
+  margin-left: 80px;
+  line-height: 1.4em;
+  text-align: left;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #e55541;
+  margin-top: 80px;
 }
