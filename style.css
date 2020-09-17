@@ -366,6 +366,7 @@ body .line {
 .projects .col {
   flex: 1;
   width: 32%;
+  margin: 0 15px;
 }
 .projects .col .img {
   width: 100%;
@@ -389,4 +390,31 @@ body .line {
 }
 .projects .col:nth-child(3) .img {
   background-image: url('https://images.unsplash.com/photo-1558155001-7e7e8b709e2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+}
+.projects .col .tab {
+  background: #fff;
+  float: left;
+  width: calc(100% - 40px);
+  padding: 20px 20px;
+}
+.projects .col .tab h2 {
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+.projects .col ul {
+  margin-top: 5px;
+}
+.projects .col ul li {
+  font-size: 11px;
+  color: #fff;
+  border-radius: 8px;
+  float: left;
+  padding: 4px 6px;
+  margin-right: 5px;
+}
+.projects .col ul .a {
+  background: #8154EF;
+}
+.projects .col ul .b {
+  background: #FF4E4E;
 }
