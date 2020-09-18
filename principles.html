@@ -13,13 +13,177 @@
     <title>Design with Life's Principles</title>
   </head>
   <body>
-      <div class="wrapper">
+      <div class="wrapper principles">
            <nav class="nav"><a href="https://stvgale.github.io/lifesprinciples/" class="tl">BMY3.8</a><ul>
               <li><a class="active" href="https://stvgale.github.io/lifesprinciples/principles">The Principles</a></li>
                <li><a href="https://stvgale.github.io/lifesprinciples/projects">The Projects</a></li>
                </ul></nav>
-hi
-         
           
+          <div class="wrapper">
+              <div class="phero"> <h1>Life's Principles</h1>
+              <p>Life’s Principles are design lessons from nature. Based on the recognition that
+Life on Earth is interconnected and interdependent, and subject to the same set
+of operating conditions, Life has evolved a set of strategies that have sustained
+over 3.8 billion years. Life’s Principles represent these overarching patterns
+found amongst the species surviving and thriving on Earth.</p>
+                  <span></span>
+              </div>
+             
+              
+              <div class="pcontent">
 
+                  <div class="prince">
+                        <h2>Adapt to Changing Conditions</h2>
+                      <span></span>
+                      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <ul>
+                          <li>Incorporate Diversity</li>
+                            <li>Maintain Integrity through Self-Renewal</li>
+                            <li>Embody Resilience</li>
+                            <li>Through Variation,
+                            Redundancy, and
+                            Decentralization</li>
+                      </ul>
+                    </div>
+       <div class="prince">
+                        <h2>Use Life-Friendly Chemistry</h2>
+            <span></span>
+           <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           <ul><li>Break Down Products
+into Benign Constituents</li>
+           <li>Build Selectively
+with a Small Subset
+of Elements</li>
+           <li>Do Chemistry
+in Water</li>
+           </ul>
+                    </div>
+       <div class="prince">
+                        <h2>Integrate Development With Growth</h2>
+            <span></span>
+           <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           <ul>
+            <li>Self-Organize</li>
+            <li>Build from the
+Bottom-Up</li>
+            <li>Combine Modular
+and Nested
+Components</li>
+           </ul>
+                    </div>
+
+
+                  <div class="prince">
+                        <h2>Be Locally Attuned and Responsive</h2>
+                       <span></span>
+                      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <ul>
+                        <li>Leverage
+Cyclic Processes</li>
+                        <li>Use Readily
+Available Materials
+and Energy</li>
+                        <li>Use Feedback Loops</li>
+                        <li>Cultivate Cooperative
+Relationships</li>
+                      </ul>
+                    </div>
+       <div class="prince">
+                        <h2>Be Resource Efficient</h2>
+            <span></span>
+           <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           <ul>
+               <li>Use Low Energy
+Processes</li>
+               <li>Use Multi-Functional
+Design</li>
+               <li>Recycle All Materials</li>
+               <li>Fit Form to Function</li>
+           
+           </ul>
+                    </div>
+       <div class="prince">
+                        <h2>Evolve to Survive</h2>
+            <span></span>
+           <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           <ul>
+           <li>Replicate
+Strategies
+that Work</li>
+               <li>Integrate the
+Unexpected</li>
+               <li>Reshuffle
+Information</li>
+           </ul>
+                    </div>
+                  </div>
+            </div>
+     
+          
+  <div class="container-gears">
+  <div class="gear1"><svg id="color-fill" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="300" xmlns:xlink="http://www.w3.org/1999/xlink">
+  
+  <polygon class="hex" style="fill:#f6efe6;stroke:#E7D1B9;stroke-width:1" points="300,150 225,280 75,280 0,150 75,20 225,20"></polygon>
+  
+</svg></div>
+
+</div>
+           <div class="line"></div>
+      </div>  
+    <footer>Content sourced from Biomimicry 3.8</footer>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     
+      <script>
+      var $gear1 = $('.gear1'),
+
+    $body = $('body'),
+    bodyHeight = $body.height();
+
+function getScrollTop() {
+    if (typeof pageYOffset != 'undefined') {
+        //most browsers except IE before #9
+        return pageYOffset;
+    } else {
+        var B = document.body; //IE 'quirks'
+        var D = document.documentElement; //IE with doctype
+        D = (D.clientHeight) ? D : B;
+        return D.scrollTop;
+    }
+}
+
+$(window).scroll(function () {
+    var scroll = getScrollTop();
+    $gear1.css({
+        'transform': 'rotate(' + (scroll / bodyHeight * 80) + 'deg)',
+        '-moz-transform': 'rotate(' + (scroll / bodyHeight * 80) + 'deg)',
+        '-ms-transform': 'rotate(' + (scroll / bodyHeight * 80) + 'deg)',
+        '-o-transform:rotate': 'rotate(' + (scroll / bodyHeight * 80) + 'deg)'
+
+    });
+
+});</script>
+      <script>$(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.prince').each( function(i){
+            
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},500);
+                    
+            }
+            
+        }); 
+    
+    });
+    
+});</script>
+    </body>
 </html>

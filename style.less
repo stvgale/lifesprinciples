@@ -193,15 +193,14 @@ font-weight:900;
              color:#3E3D6E;
         }
         p{
-               font-size: 1.1em;
+            
             margin-left:100px;
-    line-height: 1.6;
-            margin-right:50px;
+    line-height: 1.6;           margin-right:50px;
         }
         a{
             text-decoration:underline;
             margin-top:15px;
-            color:#3E3D6E;
+            color:#e55541;
             display:inline-block;
              margin-left:100px;
         }
@@ -215,6 +214,11 @@ font-weight:900;
             width:100%;
         }
     }
+}
+p{
+     font-size: 1.1em;
+
+    line-height: 1.6;
 }
 .seemore{
     padding:120px 0;
@@ -257,7 +261,7 @@ border-top:solid 1px #E7D1B9;margin-top:150px;
 
 
 .active{
-    border-bottom:solid 2px #000;
+    border-bottom:solid 2px #e55541;
 }
 .block{
     display:inline-block;
@@ -383,4 +387,96 @@ border-top:solid 1px #E7D1B9;margin-top:150px;
     letter-spacing: 2px;
     color: #e55541;
     margin-top:80px;
+}
+
+
+
+.container-gears{
+  width: 300px;
+  height: 300px;
+ left: calc(50% - 150px);
+  position: fixed;
+    top:calc(50vh - 150px);
+    z-index:-9998;
+}
+
+.container-gears .gear1{
+  width: 300px;
+  height: 300px;
+
+  position: absolute;
+
+}
+
+.phero{
+      text-align: center;
+    background: rgba(246,239,230,0.4);
+    padding:80px;
+      span{
+        height:10px;
+        width:80px;
+        margin:60px auto;
+        background:#e55541;
+        display: block;
+    }
+    h1{
+        font-weight:900;
+        font-size: 38px;
+  margin-bottom:50px;
+    margin-top:150px;
+    }
+     p{
+            max-width:630px;
+            margin:0 auto;
+        
+
+        }
+}
+
+.pcontent{
+    max-width:900px;
+    margin:30px auto 0 auto;
+    .left{
+        float:left;
+    }
+    .right{
+        float:right;
+        margin-top:300px;
+    }
+    h2{
+        font-weight:900;
+        font-size:1.2em;
+        padding-bottom:5px;
+        display:inline-block;
+        mARGIN-BOTTOM:10PX;
+   
+    }
+    span{
+        height:4px;
+        width:30px;
+        background: #8154EF;
+        display:block;
+        margin-bottom:20px;
+    }
+    .prince{
+        opacity:0;
+        margin-bottom:250px;
+        max-width:55%;
+        &:nth-child(even) {
+            margin-left:45%;
+        }
+        li{
+        font-size:1.1em;
+            margin-top:10px;
+        }
+        li::before{
+               content:'-';
+            margin-right:8px;
+        }
+    }
+}
+footer{
+    text-align:center;
+    font-size:12px;
+    padding:20px;
 }
