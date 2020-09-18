@@ -73,14 +73,9 @@ normal part of everyday inventing?”</p>
    $(window).scroll(function() {    
         $('#nr').fadeOut();
          var scrollTop = $(window).scrollTop();
-        var imgPos = scrollTop / 2 + 'px';
-        var imgPos2 = scrollTop / 2.5 + 'px';
+        var imgPos = scrollTop / 5 + 'px';
         $('.hero').css('transform', 'translateY(' + imgPos + ')');
-        $('.forest').css('transform', 'translateY(' + imgPos2 + ')');
-        
-        $('.white').css('transform', 'translateY(' + imgPos2 + ')');
-      
- 
+     
         });
     
       
