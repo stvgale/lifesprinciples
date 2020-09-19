@@ -512,6 +512,9 @@ p {
   content: '-';
   margin-right: 8px;
 }
+.pcontent .prince:first-child {
+  opacity: 1;
+}
 footer {
   text-align: center;
   font-size: 12px;
