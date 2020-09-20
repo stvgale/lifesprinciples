@@ -232,6 +232,26 @@ body .line {
   text-align: center;
   color: #3E3D6E;
 }
+.list ul {
+  margin-top: 5px;
+  margin-left: 100px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.list ul li {
+  font-size: 11px;
+  color: #fff;
+  border-radius: 8px;
+  float: left;
+  padding: 4px 6px;
+  margin-right: 5px;
+}
+.list ul .a {
+  background: #8154EF;
+}
+.list ul .b {
+  background: #FF4E4E;
+}
 .list h1 {
   line-height: 1.4em;
   text-align: left;
